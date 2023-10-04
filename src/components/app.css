@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+}
+::-webkit-scrollbar-track{
+    background-color: #0ccfc57a;;
+}
+
+.container{
+    width: 100%;
+    height:500vh;
+    background-color: rgba(12, 207, 197, 0.478);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.appWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    padding: 0px 10px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 10px 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+div{
+    width: 100%;
+}
+
+.header{
+    height: 60px;
+    background-color: #ffffffa9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-radius:10px ;
+    padding: 5px;
+    font-size: 18px;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.todoListItem{
+    margin-top: 3px;
+    background-color: #ffffffa9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.listButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.list{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.complete{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: line-through;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
